@@ -1,0 +1,13 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+  "text" : "Django Project Todo"
+}
+
+###
+DELETE http://localhost:3001/todo/delete/642b09a2db66e17944540edf
